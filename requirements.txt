@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+streamlit
+docker
+kagglehub
+seaborn
+sklearn
+#conda activate E:\Projects\Summer-Olympics-Medals\somenv

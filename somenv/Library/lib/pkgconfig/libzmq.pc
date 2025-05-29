@@ -1,0 +1,12 @@
+prefix=e:/Projects/Summer-Olympics-Medals/somenv/Library
+exec_prefix=e:/Projects/Summer-Olympics-Medals/somenv/Library
+libdir=e:/Projects/Summer-Olympics-Medals/somenv/Library/lib
+includedir=e:/Projects/Summer-Olympics-Medals/somenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

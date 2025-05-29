@@ -1,0 +1,34 @@
+{
+  "build": "py39hd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python_abi * *_cp39"
+  ],
+  "extracted_package_dir": "C:\\Users\\USER\\.conda\\pkgs\\cpython-3.9.22-py39hd8ed1ab_1",
+  "files": [],
+  "fn": "cpython-3.9.22-py39hd8ed1ab_1.conda",
+  "license": "Python-2.0",
+  "link": {
+    "source": "C:\\Users\\USER\\.conda\\pkgs\\cpython-3.9.22-py39hd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "20ebc568b80ef97202363a4507c62b8d",
+  "name": "cpython",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\USER\\.conda\\pkgs\\cpython-3.9.22-py39hd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0a91b2786e118f43dbc9054cf4265c6870448d3a4cadde0114684e7ff3239948",
+  "size": 49518,
+  "subdir": "noarch",
+  "timestamp": 1744673481000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cpython-3.9.22-py39hd8ed1ab_1.conda",
+  "version": "3.9.22"
+}
