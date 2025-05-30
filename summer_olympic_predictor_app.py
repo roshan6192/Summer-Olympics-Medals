@@ -32,8 +32,12 @@ country_list = list(le.classes_)
 country = st.selectbox("Select Country", country_list)
 year = st.slider("Select Year", min_value=1980, max_value=2032, step=4, value=2020)
 
-# Make prediction
-if st.button("Predict"):
+if st.checkbox("📊 Show medal trend for selected country"):
+    country_df = data[data['Country'] == country]
+    st.line_chart(country_df.set_index('Year')['Medal_Count'])
+
+# Prediction section
+if st.button("🔮 Predict Future Medals"):
     try:
         country_code = le.transform([country])[0]
         prediction_df = pd.DataFrame({'Year': [year], 'Country_Code': [country_code]})
