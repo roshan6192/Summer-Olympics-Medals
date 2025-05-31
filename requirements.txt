@@ -1,9 +1,10 @@
+streamlit
+pandas
 numpy
 matplotlib
-pandas
-streamlit
-docker
-kagglehub
 seaborn
-sklearn
+scikit-learn
+kagglehub
+docker
+
 #conda activate E:\Projects\Summer-Olympics-Medals\somenv
